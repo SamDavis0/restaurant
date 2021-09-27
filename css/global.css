@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Ubuntu;
+}
+
+/* background colors */
+.bg-black{
+    background-color: #000000;
+}
+.bg-blue{
+    background-color: #001427;
+}
+.bg-grey{
+    background-color: #d6d6d6;
+}
+.bg-tan{
+    background-color: #F4D58D;
+}
+.bg-red{
+    background-color: #BF0603;
+}
+.bg-darkred{
+    background-color: #8D0801;
+}
+
+/* font colors */
+.text-black{
+    color: rgb(0, 0, 0);
+}
+.text-blue{
+    color: #001427;
+}
+.text-grey{
+    color: #708D81;    
+}
+.text-accent{
+    color: #F4D58D;    
+}
+.text-accent{
+    color: #BF0603;    
+}
+.text-accent{
+    color: #8D0801;    
+}
+.text-accent a{
+    color: #F4D58D;
+    text-decoration: none;    
+}
+.text-accent a:hover, a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration:underline ;
+        
+}
+.text-grey{
+    color: #708D81;
+}
+.text-white{
+    color: #FFFFFF;
+}
+
+.gradient{
+    background-image: radial-gradient(rgb(112, 112, 112), rgb(26, 26, 26));
+}
+
+/* page sections */
+.ps-white{
+    background-color: white;
+    height: 550px;
+    width: 100%;
+}
+.ps-grey{
+    background-color: #202020;
+    height: 550px;
+    width: 100%;
+}
+/* parallax */
+.parallax{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5626bfbee4b0cf480e2f4081/1452290752571-KQUO5NYRAD6XIAV9MWOL/jupiter-pizza-and-waffle-co..jpg?format=1500w");
+    height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Define Header class rules */
+.header{
+    width: 100%;
+    height: 550px;
+    background-color: orange;
+    overflow: hidden;
+}
+.menu{
+    background-color: #202020;
+    height: 1000px;
+    width: 100%;
+}
+
+/* positioning values */
+
+
+
+/* z index */
+.z10{
+    z-index: 10;
+}
+.z15{
+    z-index: 15;
+}
+.z20{
+    z-index: 20;
+}
+.z25{
+    z-index: 25;
+}
+
+/* opacity */
+.opacity{
+    opacity: .6;
+}
+.opacity1{
+    opacity: 100%;
+}
+.smooth{
+    scroll-behavior: smooth;
+}
+
